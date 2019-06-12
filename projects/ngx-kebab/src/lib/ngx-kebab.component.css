@@ -1,16 +1,16 @@
 .default {  
-  width: 5%;
-  height: 5%;
+  width: 70px;
+  height: 130px;
 }
 
 .small {
-  width: 3%;
-  height: 3%;
+  width: 40px;
+  height: 73px;
 }
 
 .large {
-  width: 10%;
-  height: 10%;
+  width: 135px;
+  height: 243px;
 }
 
 .slider {
