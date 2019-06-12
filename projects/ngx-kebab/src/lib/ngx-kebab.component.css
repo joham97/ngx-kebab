@@ -1,0 +1,28 @@
+.default {  
+  width: 5%;
+  height: 5%;
+}
+
+.small {
+  width: 3%;
+  height: 3%;
+}
+
+.large {
+  width: 10%;
+  height: 10%;
+}
+
+.slider {
+  animation: translater 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes translater {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(414px);
+  }
+}

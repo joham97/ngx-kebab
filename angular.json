@@ -121,6 +121,41 @@
           }
         }
       }
+    },
+    "ngx-kebab": {
+      "root": "projects/ngx-kebab",
+      "sourceRoot": "projects/ngx-kebab/src",
+      "projectType": "library",
+      "prefix": "ngx",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-kebab/tsconfig.lib.json",
+            "project": "projects/ngx-kebab/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-kebab/src/test.ts",
+            "tsConfig": "projects/ngx-kebab/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-kebab/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-kebab/tsconfig.lib.json",
+              "projects/ngx-kebab/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "kebab"

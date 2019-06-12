@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-kebab": [
+        "dist/ngx-kebab"
+      ],
+      "ngx-kebab/*": [
+        "dist/ngx-kebab/*"
+      ]
+    }
   }
 }
