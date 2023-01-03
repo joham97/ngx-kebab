@@ -1,14 +1,17 @@
 {
   "name": "ngx-kebab",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kebab loading animation for Angular.",
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
   },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joham97/ngx-kebab.git"
+    "url": "git+https://github.com/jonashammerschmidt/ngx-kebab.git"
   },
   "keywords": [
     "Angular",
@@ -20,7 +23,7 @@
   "author": "Jonas Hammerschmidt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joham97/ngx-kebab/issues"
+    "url": "https://github.com/jonashammerschmidt/ngx-kebab/issues"
   },
-  "homepage": "https://github.com/joham97/ngx-kebab#readme"
+  "homepage": "https://github.com/jonashammerschmidt/ngx-kebab#readme"
 }
